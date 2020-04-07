@@ -1,3 +1,57 @@
 baseURL = "http://example.org/"
 languageCode = "en-us"
-title = "My New Hugo Site"
+title = "Kruna Site"
+theme = "Mainroad"
+paginate = "10" # Number of posts per page
+disqusShortname = "" # Enable Disqus comments by entering your Disqus shortname
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    weight = 1
+  [languages.hr]
+    languageName = "Hrvatski"
+    languageCode = "hr-HR"
+    title = "Krunin sajt"
+    subtitle = "Blog o svemu"
+    weight = 2
+    [languages.hr.params]
+      dateformat="2006-01-02"
+      [languages.hr.params.navigation]
+        help = "Pomoć"
+
+[Params]
+  defaultContentLanguage = "en"
+  highlightColor = "#2dd3e2"
+  subtitle = "Blog about everything"
+  description = "Blog that is really about everything"
+  opengraph = true
+  twitter_cards = false
+  readmore = true # Show "Read more" button in list if true
+  authorbox = true
+  post_navigation = true
+  post_meta = ["date", "categories", "translations"] # Order of post meta information
+  isMultiLingual = true
+
+[Params.sidebar]
+  home = "right"
+  list = "right"
+  single = "right"
+  widgets = ["social",  "recent", "categories", "taglist", "languages"]
+
+[Author]
+  name = "Šaša Šašić"
+  bio = "Šaša Šašić is the best blogger in the world. Nothing compares to his writing. He has been compared to Isaac Asimov but even Isaac himself admitted that Šaša is the best."
+  avatar = "img/sasasasic.jpg"
+
+[Params.widgets.social]
+  # Enable parts of social widget
+  # facebook = "username"
+  # twitter = "username"
+  # instagram = "username"
+  linkedin = "kruna-crnjak"
+  # telegram = "username"
+  # github = "username"
+  # gitlab = "username"
+  # bitbucket = "username"
+  # email = "example@example.com"

@@ -1,0 +1,94 @@
+# General
+- id: read_more
+  translation: "Više…"
+
+- id: menu_label
+  translation: "Izbornik"
+
+- id: sidemenu_title
+  translation: "Izbornik"
+
+# Post meta
+- id: meta_lastmod
+  translation: "Zadnje uređivanje"
+
+- id: meta_translations
+  translation: "Prijevodi"
+
+# Table of Contents
+- id: toc_title
+  translation: "Sadržaj"
+
+# Post nav
+- id: post_nav_prev
+  translation: "Prethodni"
+
+- id: post_nav_next
+  translation: "Sljedeći"
+
+# Authorbox
+- id: authorbox_name
+  translation: "O {{ .Count }}"
+
+# Sidebar
+- id: sidebar_warning
+  translation: "UPOZORENJE"
+
+- id: sidebar_recommendation
+  translation: "Molim aktiviraj bar jedan widget sa strane."
+
+# Search widget
+- id: search_placeholder
+  translation: "TRAŽI..."
+
+# Languages widget
+- id: languages_title
+  translation: "Jezici"
+
+# Categories widget
+- id: categories_title
+  translation: "Kategorije"
+
+# Recent Posts widget
+- id: recent_title
+  translation: "Nedavni članci"
+
+# Social widget
+- id: social_title
+  translation: "Društveno"
+
+# Tags List widget
+- id: tags_title
+  translation: "Oznake"
+
+# Footer
+- id: footer_credits
+  translation:
+    "Generirano s <a href=\"https://gohugo.io/\" rel=\"nofollow noopener\" target=\"_blank\">Hugo</a> i \
+    <a href=\"https://github.com/Vimux/Mainroad/\" rel=\"nofollow noopener\" target=\"_blank\">Mainroad</a> temom."
+
+# 404
+- id: 404_title
+  translation: "404. Ups, nema ovdje ničega."
+
+- id: 404_text
+  translation:
+    "Stranica koju tražiš je maknuta na drugu adresu, obrisana ili nikad nije postojala. Molim te iskoristi pretragu ili odi na"
+
+- id: 404_linktext
+  translation: "glavnu stranicu"
+
+# No posts empty state
+- id: noposts_warning_title
+  translation: "Još uvijek nemaš članaka."
+
+- id: noposts_warning_description
+  translation:
+    "Once you post something in any folder (section) under the <b>content</b> directory, it will appear here. Only one \
+    section (with the most posts) will be displayed on the main page by default."
+
+- id: noposts_warning_tip
+  translation:
+    "<b>Tip:</b> You can show as many sections as you like with \
+    <b><a href=\"https://gohugo.io/functions/where/#mainsections\" rel=\"nofollow noopener\" target=\"_blank\">mainSections</a></b> \
+    config parameter."
