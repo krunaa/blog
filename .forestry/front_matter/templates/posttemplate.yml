@@ -4,25 +4,31 @@ hide_body: false
 fields:
 - type: text
   name: title
-  label: title
+  label: Title
 - type: datetime
   name: date
-  label: date
+  label: Date
+  description: Format YYYY-MM-DD
 - type: text
   name: description
-  label: description
+  label: Description
+  description: Short description of what this post is about.
 - type: text
   name: author
-  label: author
+  label: Author
+  description: Probably not necessary
 - type: file
   name: thumbnail
-  label: thumbnail
+  label: Thumbnail
+  description: Image that appears below title
 - type: text
   name: lead
-  label: lead
+  label: Lead
 - type: boolean
   name: comments
-  label: comments
+  label: Comments
+  description: If comments are enabled
 - type: boolean
   name: authorbox
-  label: authorbox
+  label: Authorbox
+  description: Probably unnecessary
