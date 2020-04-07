@@ -33,6 +33,7 @@ disqusShortname = "kruna-blog"
   post_navigation = true
   post_meta = ["date", "categories", "translations"] # Order of post meta information
   isMultiLingual = true
+  mainURL = "//kruna.crnjak.xyz"
 
 [Params.sidebar]
   home = "right"
