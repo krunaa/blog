@@ -1,0 +1,34 @@
+---
+label: PostTemplate
+hide_body: false
+fields:
+- type: text
+  name: title
+  label: Title
+- type: datetime
+  name: date
+  label: Date
+  description: Format YYYY-MM-DD
+- type: text
+  name: description
+  label: Description
+  description: Short description of what this post is about.
+- type: text
+  name: author
+  label: Author
+  description: Probably not necessary
+- type: file
+  name: thumbnail
+  label: Thumbnail
+  description: Image that appears below title
+- type: text
+  name: lead
+  label: Lead
+- type: boolean
+  name: comments
+  label: Comments
+  description: If comments are enabled
+- type: boolean
+  name: authorbox
+  label: Authorbox
+  description: Probably unnecessary
