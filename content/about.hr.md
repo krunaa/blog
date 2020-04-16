@@ -1,21 +1,23 @@
 ---
-# Common-Defined params
-title: "O meni"
-date: "2020-04-01"
-description: "Evo nešto o meni."
-menu: main # Optional, add page to a menu. Options: main, side, footer
-author: Saša Kašić
-# Theme-Defined params
-thumbnail: "img/deer.jpg" # Thumbnail image
-lead: "Sve je napisano, ništa izostavljeno..." # Lead text
-comments: false # Enable Disqus comments for specific page
-authorbox: true # Enable authorbox for specific page
+title: O blogu
+date: 
+description: O čemu se radi blog i tko ga piše?
+author: Kruna Crnjak
+thumbnail: img/deer.jpg
+lead: ''
+comments: false
+authorbox: true
+menu:
+  main: {}
+
 ---
+## Kao psihologinja, dijelim svoja razmišljanja o ljudskom ponašanju i ideje o tome kako mijenjati vlastito ponašanje.
 
-## Alo!
+_Što možemo nakon što objasnimo uzroke osjećaja, misli i ponašanja ljudi?_ 
 
-Pozdrav ekipa.
+Na ovom blogu možete pronaći moja promišljanja o tom odgovoru pri čemu ću koristiti:
 
-Izvrsno se osjećam.
+* stvarne aktualne primjere
+* znanstvena istraživanja iz psihologije
 
-Nema boljeg tuluma.
+ 
